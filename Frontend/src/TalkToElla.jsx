@@ -48,7 +48,7 @@ const TalkToElla = () => {
   };
 
   const respondToUserInput = async (userMessage) => {
-    const response = await fetch("https://ellaserver.onrender.com/chat", {
+    const response = await fetch("https://chat-bot-ella.onrender.com/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

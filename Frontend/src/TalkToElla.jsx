@@ -93,7 +93,7 @@ const TalkToElla = () => {
             <div className="w-[50vw] h-[100%] hidden lg:block box2 bg-no-repeat bg-cover bg-center sticky top-0 z-[999]">
 
               <video
-                src="/ella-video.mp4"
+                src="./ella-video.mp4"
                 autoPlay
                 loop
                 muted
@@ -101,7 +101,7 @@ const TalkToElla = () => {
                 className="object-cover w-[50vw] h-[100vh]"
                 onContextMenu={(e) => e.preventDefault()}
               >
-                <source src="/ella-video.mp4" type="video/mp4" />
+                <source src="./ella-video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
 
@@ -110,7 +110,7 @@ const TalkToElla = () => {
             <div className={`w-full block lg:hidden box2 -mt-[0vh] bg-no-repeat bg-cover bg-center sticky top-0 ${isChatActive ? "hidden" : "block"}`}>
 
               <video
-                src="/ella-video.mp4"
+                src="./ella-video.mp4"
                 autoPlay
                 loop
                 muted
@@ -118,7 +118,7 @@ const TalkToElla = () => {
                 className="object-cover w-full h-[100vh]"
                 onContextMenu={(e) => e.preventDefault()}
               >
-                <source src="/ella-video.mp4" type="video/mp4" />
+                <source src="./ella-video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
 

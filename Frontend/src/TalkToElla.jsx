@@ -126,7 +126,7 @@ const TalkToElla = () => {
 
             <div className={`min-h-screen box3 bg-black z-20 w-full lg:w-[50vw] px-6 md:px-8 flex flex-col items-center ${isChatActive ? "-mt-[0vh] lg:-mt-[0vh]" : "-mt-[30vh] lg:-mt-[0vh]"}`}>
 
-              <div className={`w-full flex flex-col items-center mt-[3vh] lg:mt-[25vh] ${isChatActive ? "hidden" : "block"}`}>
+              <div className={`w-full flex flex-col items-center mt-[3vh] lg:mt-[10vh] xl:mt-[15vh] 2xl:mt-[20vh] ${isChatActive ? "hidden" : "block"}`}>
                 <svg
                   className="w-1/2 md:w-2/5 svg-anm"
                   width="340"
@@ -211,7 +211,7 @@ const TalkToElla = () => {
                   </div>
                 </div>
 
-                <div className='flex flex-col md:flex-row lg:flex-col 2xl:flex-row items-center gap-6 mt-16 mb-12 text-white'>
+                {/* <div className='flex flex-col md:flex-row lg:flex-col 2xl:flex-row items-center gap-6 mt-16 mb-12 text-white'>
                   <div onClick={() => {
                     handleButtonClickPreBuilt("Inspire me");
                     respondToUserInput("Inspire me with one best quote");
@@ -228,7 +228,7 @@ const TalkToElla = () => {
                     <div>I have a Project</div>
                     <div className='text-sm'>How do you ensure a high quality outcome?</div>
                   </div>
-                </div>
+                </div> */}
 
                 <input
                   type="text"
@@ -236,17 +236,12 @@ const TalkToElla = () => {
                   onChange={handleInputChange}
                   onKeyPress={handleKeyPress}
                   placeholder="Ask Anything...."
-                  className="w-full p-6 border border-[#AFAFAF] mb-10 rounded-full text-white placeholder-white focus:outline-none focus:ring-none"
+                  className="w-full p-6 border border-[#AFAFAF] my-10 rounded-full text-white placeholder-white focus:outline-none focus:ring-none"
                    style={{
                     background: 'linear-gradient(180deg, #0172FE 0%, #9AEBFB 100%)',
                   }}
                 />
 
-                <div className='flex lg:flex-col md:flex-row flex-col xl:flex-row items-center gap-4 md:gap-16 lg:gap-4 xl:gap-16 mb-6 text-[#838383] font-normal'>
-                  <div>© Kalacode 2024</div>
-                  <div><a href="/quick-links">© Quick Links</a></div>
-                  <div>© Copyrights Reserved</div>
-                </div>
               </div>
 
               <div

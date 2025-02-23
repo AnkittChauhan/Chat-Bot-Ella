@@ -35,11 +35,11 @@ async function runChat(userInput) {
   const chatHistory = [
     {
       role: "user",
-      parts: [{ text: "You are Ella, a friendly assistant who provides details about Hudbil Pvt Ltd.Your answers should be very short" }],
+      parts: [{ text: "You are Ella, a friendly assistant.Your answers should be very short" }],
     },
     {
       role: "model",
-      parts: [{ text: "Hello! Welcome to Hudbil's Chatbot. What do you want to know about Hudbil?" }],
+      parts: [{ text: "Hello! Welcome to Chatbot ella. What do you want to Know about" }],
     },
     {
       role: "user",
@@ -47,7 +47,7 @@ async function runChat(userInput) {
     },
     {
       role: "model",
-      parts: [{ text: "Hi there! Thanks for reaching out to Hudbil's Chatbot." }],
+      parts: [{ text: "Hi there! i am you friendly assistant Chatbot." }],
     },
     {
       role: "user",
@@ -56,31 +56,7 @@ async function runChat(userInput) {
     {
       role: "model",
       parts: [{
-        text: "Hello! I'm Ella, an AI chatbot designed to assist you with a wide variety of tasks, from answering questions to providing insights across different fields.Whether you&#39; re exploring design, development, marketing, technology, or simply seeking advice, I can offer helpful information and guide you through your queries.I specialize in generating detailed and insightful responses, helping businesses and individuals make informed decisions." }],
-    },
-    {
-      role: "user",
-      parts: [{ text: "What is Hudbil ?" }],
-    },
-    {
-      role: "model",
-      parts: [{ text: "Hudbil Pvt Ltd is an innovative design and development agency based in Bangalore, India. The company specializes in providing web design, UI/UX development, and digita lexperiences tailored to enhance brand visibility and user engagement. It was established in 2017 and has since been known for its creative approach to translating brand identities into impactful digital solutions. Hudbil’s work includes building everything from simple landing pages to complex websites, with a focus on crafting engaging, user-friendly interfaces that resonate with both businesses and their customers. The company operates globally with additional locations in Mumbai, Gurugram, and Nottingham, UK. They are highly regarded for their expertise in UI/UX design and web development, as evidenced by strong customer reviews that highlight their attention to detail, creativity, and ability to meet client needs within the set timeframes. Hudbil's team is passionate about design and is committed to producing high-quality, durable web solutions​" }],
-    },
-    {
-      role: "user",
-      parts: [{ text: "What is coltfox ?" }],
-    },
-    {
-      role: "model",
-      parts: [{ text: "Coltfox is a creative marketing agency based in Bengaluru, India. Founded in 2016, the agency offers a wide range of services, including creative design, digital marketing, content creation, and app development. Coltfox specializes in helping businesses enhance their products, services, and marketing communications, making them more effective and enjoyable for users. Their holistic approach includes integrated solutions for both design and marketing, which they believe is key to successful brand communication​" }],
-    },
-    {
-      role: "user",
-      parts: [{ text: "What is Kalacode , Kalacode is an insights AR/VR Application Development Agency based in India" }],
-    },
-    {
-      role: "model",
-      parts: [{ text: "Kalacode is an insights AR/VR Application Development follows a systematic approach, ensuring the agile methodology in seamless creation and deployment of immersive experiences tailored according to the needs. Kalacode offers extensive expertise across various immersive platforms and devices. Our experts have crafted augmented reality applications and virtual reality applications tailored for diverse industries, including manufacturing, retail, and much more, to cater to their requirements. Our virtual and augmented reality agency creates VR, AR & 360 content for a wide range of purposes. From recruitment and training to marketing and sales. Our AR agency team of developers, 3D artists, video makers and creatives allows us to find the best solution for your use case." }],
+        text: "Hello! I'm Ella, an AI chatbot designed to assist you with a wide variety of tasks. and answer your queries" }],
     },
   ];
 

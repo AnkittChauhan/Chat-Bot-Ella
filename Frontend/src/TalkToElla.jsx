@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import codeVideo from '../public/ella-video.mp4'
+import Navbar from './Components/Navbar';
 
 const TalkToElla = () => {
 
@@ -88,6 +89,7 @@ const TalkToElla = () => {
 
   return (
     <>
+      < Navbar />
       <main className=''>
         <div className="bg-black min-h-screen">
           <main className="flex flex-col lg:flex-row">

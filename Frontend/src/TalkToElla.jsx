@@ -164,8 +164,8 @@ const TalkToElla = () => {
                       y2="325"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0.0495707" stop-color="#0172FE" />
-                      <stop offset="0.830267" stop-color="#9AEBFB" />
+                      <stop offset="0.0495707" stop-color="#7F00FF" />
+                      <stop offset="0.830267" stop-color="#7F00FF" />
                     </linearGradient>
                     <linearGradient
                       id="paint1_linear_4613_436"
@@ -175,8 +175,8 @@ const TalkToElla = () => {
                       y2="333"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0.0495707" stop-color="#0172FE" />
-                      <stop offset="0.830267" stop-color="#9AEBFB" />
+                      <stop offset="0.0495707" stop-color="#7F00FF" />
+                      <stop offset="0.830267" stop-color="#7F00FF" />
                     </linearGradient>
                     <linearGradient
                       id="paint2_linear_4613_436"
@@ -186,8 +186,8 @@ const TalkToElla = () => {
                       y2="273"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0.0495707" stop-color="#0172FE" />
-                      <stop offset="0.830267" stop-color="#9AEBFB" />
+                      <stop offset="0.0495707" stop-color="#7F00FF" />
+                      <stop offset="0.830267" stop-color="#7F00FF" />
                     </linearGradient>
                     <linearGradient
                       id="paint3_linear_4613_436"
@@ -197,8 +197,8 @@ const TalkToElla = () => {
                       y2="325"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0.0495707" stop-color="#0172FE" />
-                      <stop offset="0.830267" stop-color="#9AEBFB" />
+                      <stop offset="0.0495707" stop-color="#7F00FF" />
+                      <stop offset="0.830267" stop-color="#7F00FF" />
                     </linearGradient>
                   </defs>
                 </svg>
@@ -216,7 +216,7 @@ const TalkToElla = () => {
                   <div onClick={() => {
                     handleButtonClickPreBuilt("Inspire me");
                     respondToUserInput("Inspire me with one best quote");
-                  }} className='border border-white hover:bg-[#0172FE] cursor-pointer rounded-full px-8 py-3 flex flex-col items-start gap-2'>
+                  }} className='border border-white hover:bg-[#7F00FF] cursor-pointer rounded-full px-8 py-3 flex flex-col items-start gap-2'>
                     <div>Inspire me</div>
                     <div className='text-sm'>Tell me about an exciting design trend 2030</div>
                   </div>
@@ -225,7 +225,7 @@ const TalkToElla = () => {
                     respondToUserInput(
                       "I have a Project. How do you ensure a high quality outcome?"
                     );
-                  }} className='border border-white hover:bg-[#0172FE] cursor-pointer rounded-full px-8 py-3 flex flex-col items-start gap-2'>
+                  }} className='border border-white hover:bg-[#7F00FF] cursor-pointer rounded-full px-8 py-3 flex flex-col items-start gap-2'>
                     <div>I have a Project</div>
                     <div className='text-sm'>How do you ensure a high quality outcome?</div>
                   </div>
@@ -239,7 +239,7 @@ const TalkToElla = () => {
                   placeholder="Ask Anything...."
                   className="w-full p-6 border border-[#AFAFAF] my-10 rounded-full text-white placeholder-white focus:outline-none focus:ring-none"
                    style={{
-                    background: 'linear-gradient(180deg, #0172FE 0%, #9AEBFB 100%)',
+                    background: 'linear-gradient(180deg, #7F00FF 0%, #7F00FF 100%)',
                   }}
                 />
 
@@ -255,7 +255,7 @@ const TalkToElla = () => {
                         const botMessage = messages[index + 1];
                         return (
                           <div key={index} className="mb-12">
-                            <div className="text-[#0172FE] text-base lg:text-lg font-semibold pb-3">
+                            <div className="text-[#7F00FF] text-base lg:text-lg font-semibold pb-3">
                               {message.text}
                             </div>
                             {botMessage && (
@@ -297,8 +297,8 @@ const TalkToElla = () => {
                                         y2="325"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop offset="0.0495707" stop-color="#0172FE" />
-                                        <stop offset="0.830267" stop-color="#9AEBFB" />
+                                        <stop offset="0.0495707" stop-color="#7F00FF" />
+                                        <stop offset="0.830267" stop-color="#7F00FF" />
                                       </linearGradient>
                                       <linearGradient
                                         id="paint1_linear_4613_435"
@@ -308,8 +308,8 @@ const TalkToElla = () => {
                                         y2="333"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop offset="0.0495707" stop-color="#0172FE" />
-                                        <stop offset="0.830267" stop-color="#9AEBFB" />
+                                        <stop offset="0.0495707" stop-color="#7F00FF" />
+                                        <stop offset="0.830267" stop-color="#7F00FF" />
                                       </linearGradient>
                                       <linearGradient
                                         id="paint2_linear_4613_435"
@@ -319,8 +319,8 @@ const TalkToElla = () => {
                                         y2="273"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop offset="0.0495707" stop-color="#0172FE" />
-                                        <stop offset="0.830267" stop-color="#9AEBFB" />
+                                        <stop offset="0.0495707" stop-color="#7F00FF" />
+                                        <stop offset="0.830267" stop-color="#7F00FF" />
                                       </linearGradient>
                                       <linearGradient
                                         id="paint3_linear_4613_435"
@@ -330,8 +330,8 @@ const TalkToElla = () => {
                                         y2="325"
                                         gradientUnits="userSpaceOnUse"
                                       >
-                                        <stop offset="0.0495707" stop-color="#0172FE" />
-                                        <stop offset="0.830267" stop-color="#9AEBFB" />
+                                        <stop offset="0.0495707" stop-color="#7F00FF" />
+                                        <stop offset="0.830267" stop-color="#7F00FF" />
                                       </linearGradient>
                                     </defs>
                                   </svg>
@@ -357,7 +357,7 @@ const TalkToElla = () => {
                     placeholder="Ask Anything...."
                     className=" p-6 border my-12 w-full border-[#AFAFAF] rounded-full text-white placeholder-white focus:outline-none focus:ring-none"
                     style={{
-                    background: 'linear-gradient(180deg, #0172FE 0%, #9AEBFB 100%)',
+                    background: 'linear-gradient(180deg, #7F00FF 0%, #7F00FF 100%)',
                   }}
                   />
                 </div>

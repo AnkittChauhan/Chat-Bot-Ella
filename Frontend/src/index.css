@@ -55,18 +55,18 @@ body {
 @keyframes stroke {
   0% {
     fill: rgba(72, 138, 20, 0);
-    stroke: #0172FE;
+    stroke: #7F00FF;
     stroke-dashoffset: 25%;
     stroke-dasharray: 0 50%;
     stroke-width: 2;
   }
   70% {
     fill: rgba(72, 138, 20, 0);
-    stroke: #0172FE;
+    stroke: #7F00FF;
   }
   80% {
     fill: rgba(72, 138, 20, 0);
-    stroke: #0172FE;
+    stroke: #7F00FF;
     stroke-width: 3;
   }
   100% {
@@ -78,7 +78,7 @@ body {
 }
 
 .submit-btn {
-  background: #0172fe;
+  background: #7F00FF;
 }
 
 .submit-btn:hover {

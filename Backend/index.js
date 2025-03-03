@@ -5,7 +5,7 @@ const dotenv = require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 5174;
-const MODEL_NAME = "gemini-pro";
+const MODEL_NAME = "gemini-1.5-pro";
 const API_KEY = process.env.API_KEY;
 
 app.use(cors());
@@ -15,7 +15,7 @@ app.use(express.json());
 async function runChat(userInput) {
 
   const genAI = new GoogleGenerativeAI(API_KEY);
-  const model = genAI.getGenerativeModel({ model: MODEL_NAME });
+  const model = genAI.getGenerativeModel({ model: MODEL_NAME } , { apiVersion: 'v1' });
 
   const generationConfig = {
     temperature: 0.9,

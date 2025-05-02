@@ -89,7 +89,6 @@ const TalkToElla = () => {
 
   return (
     <>
-      < Navbar />
       <main className=''>
         <div className="bg-black min-h-screen">
           <main className="flex flex-col lg:flex-row">

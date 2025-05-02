@@ -9,7 +9,6 @@ const App = () => {
      
       
       <BrowserRouter>
-      < Navbar /> 
       <Routes>
         <Route path="/" element={< TalkToElla />} />
       </Routes>

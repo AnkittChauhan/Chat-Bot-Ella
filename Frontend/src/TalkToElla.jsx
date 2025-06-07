@@ -104,7 +104,7 @@ const TalkToElla = () => {
                 onContextMenu={(e) => e.preventDefault()}
               >
                 <source src={codeVideo} type="video/mp4" />
-                Your browser does not support the video tag.
+                {/* Your browser does not support the video tag. */}
               </video>
 
             </div>
@@ -213,24 +213,6 @@ const TalkToElla = () => {
                   </div>
                 </div>
 
-                {/* <div className='flex flex-col md:flex-row lg:flex-col 2xl:flex-row items-center gap-6 mt-16 mb-12 text-white'>
-                  <div onClick={() => {
-                    handleButtonClickPreBuilt("Inspire me");
-                    respondToUserInput("Inspire me with one best quote");
-                  }} className='border border-white hover:bg-[#7F00FF] cursor-pointer rounded-full px-8 py-3 flex flex-col items-start gap-2'>
-                    <div>Inspire me</div>
-                    <div className='text-sm'>Tell me about an exciting design trend 2030</div>
-                  </div>
-                  <div onClick={() => {
-                    handleButtonClickPreBuilt("I have a Project");
-                    respondToUserInput(
-                      "I have a Project. How do you ensure a high quality outcome?"
-                    );
-                  }} className='border border-white hover:bg-[#7F00FF] cursor-pointer rounded-full px-8 py-3 flex flex-col items-start gap-2'>
-                    <div>I have a Project</div>
-                    <div className='text-sm'>How do you ensure a high quality outcome?</div>
-                  </div>
-                </div> */}
 
                 <input
                   type="text"

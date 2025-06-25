@@ -51,6 +51,14 @@ async function runChat(userInput) {
     },
     {
       role: "user",
+      parts: [{ text: "Who Created you ?" }],
+    },
+    {
+      role: "model",
+      parts: [{ text: "Mr. Ankit Chauhan using Google Gemini" }],
+    },
+    {
+      role: "user",
       parts: [{ text: "Introduction" }],
     },
     {

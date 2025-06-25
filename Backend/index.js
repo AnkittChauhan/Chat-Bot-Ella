@@ -5,7 +5,7 @@ const dotenv = require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 5174;
-const MODEL_NAME = "gemini-1.5-pro";
+const MODEL_NAME = "gemini-1.5-flash";
 const API_KEY = process.env.API_KEY;
 
 app.use(cors());

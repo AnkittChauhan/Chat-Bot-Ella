@@ -35,7 +35,7 @@ async function runChat(userInput) {
   const chatHistory = [
     {
       role: "user",
-      parts: [{ text: "You are Ella, a friendly assistant.Your answers should be very short" }],
+      parts: [{ text: "You are Ella, a friendly assistant.Your answers should be short" }],
     },
     {
       role: "model",

@@ -1,0 +1,30 @@
+{
+  "usage": {
+    "0": {
+      "name": "PRIMARY",
+      "requestCount": 1,
+      "errors": 0,
+      "lastUsed": "2025-08-06T03:43:58.561Z"
+    },
+    "1": {
+      "name": "BACKUP_1",
+      "requestCount": 0,
+      "errors": 0,
+      "lastUsed": null
+    },
+    "2": {
+      "name": "BACKUP_2",
+      "requestCount": 0,
+      "errors": 0,
+      "lastUsed": null
+    },
+    "3": {
+      "name": "BACKUP_3",
+      "requestCount": 0,
+      "errors": 0,
+      "lastUsed": null
+    }
+  },
+  "lastResetDate": "Wed Aug 06 2025",
+  "totalSaved": 0
+}

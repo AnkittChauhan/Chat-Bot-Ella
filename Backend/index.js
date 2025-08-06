@@ -303,6 +303,7 @@ class MultiApiManager {
 
 // Initialize Multi-API Manager
 const multiApiManager = new MultiApiManager();
+app.set('trust proxy', 1);
 
 // Middleware setup (same as before)
 app.use(helmet());

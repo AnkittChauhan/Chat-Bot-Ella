@@ -307,11 +307,55 @@ const multiApiManager = new MultiApiManager();
 // Middleware setup (same as before)
 app.use(helmet());
 app.use(compression());
+
 app.use(cors({
-  origin: 'http://localhost:5173' || process.env.FRONTEND_URL,
+  origin: process.env.FRONTEND_URL || 'http://localhost:5173',
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type']
 }));
+
+// Or even better, use this more robust version:
+const getAllowedOrigins = () => {
+  const origins = [];
+  
+  // Add production URL from environment
+  if (process.env.FRONTEND_URL) {
+    origins.push(process.env.FRONTEND_URL);
+  }
+  
+  // Add development URLs
+  if (process.env.NODE_ENV === 'development') {
+    origins.push('http://localhost:5173');
+    origins.push('http://localhost:3000');
+  }
+  
+  // Fallback for development
+  if (origins.length === 0) {
+    origins.push('http://localhost:5173');
+  }
+  
+  return origins;
+};
+
+app.use(cors({
+  origin: getAllowedOrigins(),
+  methods: ['GET', 'POST', 'OPTIONS'],
+  allowedHeaders: ['Content-Type'],
+  credentials: true
+}));
+
+// Quick fix version (most simple):
+app.use(cors({
+  origin: [
+    process.env.FRONTEND_URL,
+    'http://localhost:5173',
+    'http://localhost:3000',
+    'https://chat-bot-ella.vercel.app' // Your actual Vercel URL
+  ].filter(Boolean), // Remove undefined values
+  methods: ['GET', 'POST', 'OPTIONS'],
+  allowedHeaders: ['Content-Type']
+}));
+
 app.use(express.json({ limit: '1mb' }));
 
 const chatRateLimit = rateLimit({
